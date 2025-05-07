@@ -12,12 +12,14 @@ para.textContent = "Hello World-p!";
 let img = document.getElementsByTagName("img")[0];
 img.src = "https://www.w3schools.com/images/w3schools_green.jpg";
 
-let list = document.querySelectorAll("li");
-for (let i = 0; i < list.length; i++) {
-  list[i].textContent = "list item !";
-  list[i].style.color = "red";
-  list[i].style.border = "1px solid black";
-  list[i].style.display = "inline-block";
+let list = document.querySelector("ul");
+for (let i = 0; i < 4; i++) {
+    let listItem = document.createElement("li");
+    listItem.textContent = "list item !";
+    listItem.style.color = "red";
+    listItem.style.border = "1px solid black";
+    listItem.style.display = "inline-block";
+    list.appendChild(listItem);
 }
 
 let table = document.createElement("table");
