@@ -3,7 +3,7 @@ heading.style.color = 'blue';
 heading.textContent = "Hello World!";
 
 let para = document.getElementById("text");
-para.className ="classTable";
+para.className ="classP";
 para.textContent = "Hello World-p!";
 
 let img = document.getElementsByTagName('img')[0];
