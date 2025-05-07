@@ -29,16 +29,26 @@ let cell2 = row.insertCell(1);
 let cell3 = row.insertCell(2);
 let cell4 = row.insertCell(3);
 
-cell1.textContent = "1";
-cell2.textContent = "2";
-cell3.textContent = "3";
+cell1.textContent = "heading";
+cell2.textContent = "heading";
+cell3.textContent = "heading";
 let row2 = table.insertRow(1);
 let cell5 = row2.insertCell(0);
 let cell6 = row2.insertCell(1);
 let cell7 = row2.insertCell(2);
 let cell8 = row2.insertCell(3);
-cell5.textContent = "4";
-cell6.textContent = "5";
-cell7.textContent = "6";
+cell5.textContent = "1";
+cell6.textContent = "2";
+cell7.textContent = "3";
+
+let row3 = table.insertRow(2);
+let cell9 = row3.insertCell(0);
+let cell10 = row3.insertCell(1);
+let cell11 = row3.insertCell(2);
+let cell12 = row3.insertCell(3);
+
+cell9.textContent = "4";
+cell10.textContent = "5";
+cell11.textContent = "6";
 
 table.classList.add("classTable");
